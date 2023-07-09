@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: python-version-${{ matrix.python-version }}-output
-          path: output.txt
+          path: ./output.txt
